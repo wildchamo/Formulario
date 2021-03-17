@@ -14,7 +14,7 @@ background-color: #88AACC;
 }
 main{
     display: flex;
-    
+
 }
 .formularioProducto{
     width:300px;
@@ -30,4 +30,10 @@ footer{
     height: 100px;
     background-color: black;
 
+}
+.estado{
+    display: flex;
+}
+form{
+    
 }

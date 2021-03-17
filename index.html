@@ -51,13 +51,24 @@
         <tr>
         <td>% IVA</td>
         <td>
-            
+            <select name="iva" id="iva">
+                <option value="0"></option>
+                <option value="10">10</option>
+                <option value="19">19</option>
+                
+            </select>
         </td>  
         </tr>
 
         <tr>
         <td>Estado</td>
-        <td>a</td>  
+        <td class="estado">
+            <input type="radio" id="activo" value="activo" name="estado">
+            <label for="activo">activo</label> 
+            <input type="radio" id="inactivo" value="inactivo" name="estado">
+            <label for="inactivo">inactivo</label> 
+            
+        </td>  
         </tr>
 
         <tr>
@@ -69,9 +80,16 @@
 
         <tr>
         <td>comentarios</td>
-        <td>a</td>  
+        <td>
+            <textarea name="" id="" cols="22" rows="3"></textarea>
+        </td>  
         </tr>
-        
+        <tr>
+            <td></td>
+            <td>
+                <button></button>
+            </td>  
+            </tr>
     </table>
 </form>
 
