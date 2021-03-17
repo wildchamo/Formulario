@@ -12,3 +12,22 @@ body{
 height: 20px;
 background-color: #88AACC;
 }
+main{
+    display: flex;
+    
+}
+.formularioProducto{
+    width:300px;
+    height: 380px;
+    background-color:  #EFEEFD;
+}
+.listaProductos{
+    width: 450px;
+    height: 380px;
+    background-color: #EFEFFF;
+}
+footer{
+    height: 100px;
+    background-color: black;
+
+}
