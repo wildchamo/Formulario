@@ -13,7 +13,10 @@
 
         </div>
         <div class="header2">
-
+            <a href="">&acute;Inicio &acute;</a>
+            <a href="">&acute; Productos &acute;</a>
+            <a href="">&acute;Inventarios &acute;</a>
+            <a href="">&acute;Acerca de &acute;</a>
         </div>
         
     </header>
@@ -44,7 +47,7 @@
         <tr>
         <td>Costo</td>
         <td>
-            <input type="number">
+            <input type="number" aria-valuemin="0" aria-valuemax="999999999">
         </td>  
         </tr>
 
@@ -74,7 +77,7 @@
         <tr>
         <td>Fecha de registro</td>
         <td>
-            <input type="date">
+            <input type="date" min="2020-1-1" max="2021-3-17">
         </td>  
         </tr>
 
@@ -86,8 +89,9 @@
         </tr>
         <tr>
             <td></td>
+            
             <td>
-                <button></button>
+                <button>crear</button>
             </td>  
             </tr>
     </table>
@@ -95,7 +99,16 @@
 
         </div>
         <div class="listaProductos">
+            <table>
 
+                <td>Codigo</td>
+                <td>Nombre</td>
+                <td>Costo</td>
+                <td>%IVA</td>
+                <td>Estado</td>
+                <td>Fecha Reg</td>
+                <td>Comentarios</td>
+            </table>
         </div>
     </main>
     <footer>

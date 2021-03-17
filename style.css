@@ -11,6 +11,11 @@ body{
 .header2{
 height: 20px;
 background-color: #88AACC;
+display: flex;
+justify-content: flex-start;
+}
+.header2 a{
+    color: white;
 }
 main{
     display: flex;
@@ -35,5 +40,11 @@ footer{
     display: flex;
 }
 form{
-    
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.listaProductos td{
+    background-color: #000066;
+    color: white;
 }
